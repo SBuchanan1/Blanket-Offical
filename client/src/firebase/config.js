@@ -3,7 +3,7 @@ import 'firebase/firebase-storage';
 import 'firebase/firebase-firestore';
 import 'firebase/analytics';
 
-
+// Initializing firebase
 var firebaseConfig = {
     apiKey: "AIzaSyDKWI1f4J_81Au_UX4Cp9MPrrYOsOAir_s",
     authDomain: "blanket-001.firebaseapp.com",
@@ -14,7 +14,7 @@ var firebaseConfig = {
     appId: "1:1095318653360:web:d45a4d5fb7a2b0ef18ee75",
     measurementId: "G-FLBY5HH0CL"
 };
-// Initialize Firebase
+
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
