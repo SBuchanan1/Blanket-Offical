@@ -26,7 +26,7 @@ export class Success extends Component {
                     >
                         <AppBar title="Success" />
                         <h1>Thank You For Your Submission</h1>
-                        <p>You will get an email with further instructions.</p>
+                        <p>You will get an email with further details.</p>
                     </Dialog>
                 </>
             </MuiThemeProvider>
