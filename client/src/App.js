@@ -1,18 +1,20 @@
 import React, { useState } from 'react';
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Title from './components/Title';
-import UploadForm from './components/UploadForm';
-import ImageGrid from './components/ImageGrid';
-import Modal from './components/Modal';
-// import Nav from "./components/Nav";
+import { UserForm } from './components/Form/UserForm';
+import Title from './components/Documents/Title';
+import UploadForm from './components/Documents/UploadForm';
+import ImageGrid from './components/Documents/ImageGrid';
+import Modal from './components/Documents/Modal';
+// import { UserForm } from './components/Userform';
+
 
 
 function App() {
   const [selectedImg, setSelectedImg] = useState(null);
 
   return (
-    // <Router>
+
     <div className="App">
+      <UserForm />
       <Title />
       <UploadForm />
       <ImageGrid setSelectedImg={setSelectedImg} />
@@ -20,7 +22,7 @@ function App() {
         <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
       )}
     </div>
-    // <Router />
+
   );
 }
 
