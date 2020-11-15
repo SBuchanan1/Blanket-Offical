@@ -4,7 +4,6 @@ import UploadForm from './components/UploadForm';
 import ImageGrid from './components/ImageGrid';
 import Modal from './components/Modal';
 
-
 function App() {
   const [selectedImg, setSelectedImg] = useState(null);
 
