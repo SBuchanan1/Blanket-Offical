@@ -4,7 +4,7 @@
   --primary: #efb6b2;
   --secondary: #4e4e4e;
   --error: #ff4a4a;
-  background-color: lightslategrey;
+  background-color: darkgray;
 }
 
 /* base styles & title */
@@ -15,6 +15,7 @@ body {
 .App {
   max-width: 960px;
   margin: 0 auto;
+  background-color: lightgrey;
 }
 .title h1 {
   color: var(--primary);

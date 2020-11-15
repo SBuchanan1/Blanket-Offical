@@ -4,7 +4,6 @@
   --primary: #efb6b2;
   --secondary: #4e4e4e;
   --error: #ff4a4a;
-  background-color: lightslategrey;
 }
 
 /* base styles & title */
@@ -18,7 +17,7 @@ body {
 }
 .title h1 {
   color: var(--primary);
-  /* font-size: 1.2rem; */
+  font-size: 1.2rem;
   letter-spacing: 2px;
   font-weight: normal;
 }
@@ -28,7 +27,7 @@ body {
 }
 .title h2 {
   margin-top: 60px;
-  font-size: 4rem;
+  font-size: 2.6rem;
 }
 
 /* upload form styles */
@@ -43,18 +42,15 @@ label input {
 }
 label {
   display: block;
-  width: 75px;
-  height: 75px;
+  width: 30px;
+  height: 30px;
   border: 1px solid var(--primary);
   border-radius: 50%;
   margin: 10px auto;
-  line-height: 75px;
+  line-height: 30px;
   color: var(--primary);
   font-weight: bold;
-  font-size: 50px;
-}
-span {
-  align-items: center;
+  font-size: 24px;
 }
 label:hover {
   background: var(--primary);
