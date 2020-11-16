@@ -14,7 +14,7 @@ export class UserForm extends Component {
         occupation: '',
         city: '',
         bio: ''
-    };
+    }
 
     // Proceed to next step
     nextStep = () => {
@@ -73,6 +73,7 @@ export class UserForm extends Component {
             //     return <Success />;
             // default:
             //     (console.log('This is a multi-step form built with React.'))
+
         }
     }
 }
