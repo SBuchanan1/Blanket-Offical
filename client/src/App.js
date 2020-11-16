@@ -24,6 +24,7 @@ function App() {
           <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
        )}
             {/* <div>
+
              <button onClick={()=> deleteImg(selectedImg)} >DELETE</button>   
             </div> */}
     </div>

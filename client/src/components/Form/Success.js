@@ -9,30 +9,36 @@ import { DialogActions, DialogTitle,} from '@material-ui/core';
 
 
 
-export class Success extends Component {
-    
 
- 
+export class Success extends Component {
+
+    continue = e => {
+        e.preventDefault();
+        // PROCESS FORM //
+        this.props.nextStep();
+    };
+
+    back = e => {
+        e.preventDefault();
+        this.props.prevStep();
+    };
 
     render() {
         return (
-                
+            <MuiThemeProvider>
+                <>
                     <Dialog
                         open
                         fullWidth
                         maxWidth='sm'
-
                     >
-                        <DialogTitle id="Success">Success</DialogTitle>
-                        
+                        <AppBar title="Success" />
                         <h1>Thank You For Your Submission</h1>
                         <p>You will get an email with further instructions.</p>
-                        <DialogActions>
-                        <button onClick = "Open = (false)" >CLOSE</button> 
-                        </DialogActions>
-                             
-                    </Dialog>
-                
+                        <Button onClick={() => deleteDialog(Dialog)} >CLICK</Button>
+                    </Dialog >
+                </>
+            </MuiThemeProvider >
         );
     }
 }
