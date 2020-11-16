@@ -16,14 +16,14 @@ function App() {
   return (
 
     <div className="App">
-        {/* <UserForm /> */}
-        <Title />
-        <UploadForm />
-        <ImageGrid setSelectedImg={setSelectedImg} />
-        {selectedImg && (
-          <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
-       )}
-            {/* <div>
+
+      <Title />
+      <UploadForm />
+      <ImageGrid setSelectedImg={setSelectedImg} />
+      {selectedImg && (
+        <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
+      )}
+      {/* <div>
              <button onClick={()=> deleteImg(selectedImg)} >DELETE</button>   
             </div> */}
     </div>
