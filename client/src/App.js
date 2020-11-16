@@ -16,7 +16,7 @@ function App() {
   return (
 
     <div className="App">
-        {/* <UserForm /> */}
+        <UserForm />
         <Title />
         <UploadForm />
         <ImageGrid setSelectedImg={setSelectedImg} />
