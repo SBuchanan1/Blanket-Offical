@@ -15,7 +15,7 @@ const Modal = ({ setSelectedImg, selectedImg }) => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}>
             <div>
-             <button onClick={()=> deleteImg(selectedImg)} >DELETE</button>   
+             <button onClick={()=> deleteImg(selectedImg)} >CLICK</button>   
             </div>
             <img src={selectedImg} alt="enlarged pic"
                 initial={{ y: "-100vh" }}

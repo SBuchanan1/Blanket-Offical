@@ -1,6 +1,6 @@
 import React from 'react';
 // import { motion } from 'framer-motion';
-import deleteImg from '../../hooks/DeleteImg';
+import deleteImg from '../hooks/DeleteImg';
 
 const Modal = ({ setSelectedImg, selectedImg }) => {
 
