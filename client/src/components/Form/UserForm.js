@@ -4,6 +4,8 @@ import FormPersonalDetails from './FormPersonalDetails';
 import Confirm from './Confirm';
 import Success from './Success';
 import Title from '../Documents/Title';
+import Blank from '../Documents/Blank';
+import { Hidden, styled } from '@material-ui/core';
 
 export class UserForm extends Component {
     state = {
@@ -69,7 +71,7 @@ export class UserForm extends Component {
                     />
                 );
             case 4:
-                return <Title/>;
+                return <Blank/>;
             //     return <Success />;
             // default:
             //     (console.log('This is a multi-step form built with React.'))
