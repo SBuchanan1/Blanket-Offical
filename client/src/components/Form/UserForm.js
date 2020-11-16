@@ -3,6 +3,7 @@ import FormUserDetails from './FormUserDetails';
 import FormPersonalDetails from './FormPersonalDetails';
 import Confirm from './Confirm';
 import Success from './Success';
+import Title from '../Documents/Title';
 
 export class UserForm extends Component {
     state = {
@@ -68,9 +69,11 @@ export class UserForm extends Component {
                     />
                 );
             case 4:
-                return <Success />;
-            default:
-                (console.log('You successfully created a build form for login.'))
+                return <Title/>;
+            //     return <Success />;
+            // default:
+            //     (console.log('This is a multi-step form built with React.'))
+
         }
     }
 }
