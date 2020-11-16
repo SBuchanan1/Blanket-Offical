@@ -71,13 +71,16 @@ label input {
 line-height: 1.6 !important;
 font-size: 1.2rem !important;
 }
+.MuiInputLabel-formControl {
+  transform: none !important;
+}
 label {
   display: block;
   width: 75px;
   height: 75px;
   border: 1px solid var(--primary);
   border-radius: 100%;
-  margin: -38px auto;
+  margin: -10px auto;
   line-height: 75px;
   color: var(--primary);
   font-weight: bold;
