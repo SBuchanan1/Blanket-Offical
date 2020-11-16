@@ -4,7 +4,6 @@ import Title from './components/Documents/Title';
 import UploadForm from './components/Documents/UploadForm';
 import ImageGrid from './components/Documents/ImageGrid';
 import Modal from './components/Documents/Modal';
-import deleteImg from './hooks/DeleteImg';
 
 // import { UserForm } from './components/Userform';
 
