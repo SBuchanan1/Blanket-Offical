@@ -4,6 +4,7 @@ import 'firebase/firebase-firestore';
 import 'firebase/analytics';
 
 
+
 var firebaseConfig = {
     apiKey: "AIzaSyDKWI1f4J_81Au_UX4Cp9MPrrYOsOAir_s",
     authDomain: "blanket-001.firebaseapp.com",
