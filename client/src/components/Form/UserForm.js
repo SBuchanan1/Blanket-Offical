@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 import FormUserDetails from './FormUserDetails';
 import FormPersonalDetails from './FormPersonalDetails';
 import Confirm from './Confirm';
-import Success from './Success';
-import Title from '../Documents/Title';
 import Blank from '../Documents/Blank';
-import { Hidden, styled } from '@material-ui/core';
 
 export class UserForm extends Component {
     state = {

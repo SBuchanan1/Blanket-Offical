@@ -67,13 +67,17 @@ label input {
   width: 0;
   opacity: 0;
 }
+.MuiFormLabel-root {
+line-height: 1.6 !important;
+font-size: 1.2rem !important;
+}
 label {
   display: block;
   width: 75px;
   height: 75px;
   border: 1px solid var(--primary);
-  border-radius: 50%;
-  margin: 10px auto;
+  border-radius: 100%;
+  margin: -38px auto;
   line-height: 75px;
   color: var(--primary);
   font-weight: bold;
