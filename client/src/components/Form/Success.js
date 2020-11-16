@@ -1,45 +1,41 @@
-// import React, { Component } from 'react';
-// import Dialog from '@material-ui/core/Dialog';
-// import AppBar from '@material-ui/core/AppBar';
-// import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
-// import Button from '@material-ui/core/Button';
-// import deleteDialog from '../../hooks/DeleteDialog';
+import React, { Component } from 'react';
+import Dialog from '@material-ui/core/Dialog';
+import AppBar from '@material-ui/core/AppBar';
+import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+import deleteDialog from '../../hooks/DeleteDialog';
+import { DialogActions, DialogTitle,} from '@material-ui/core';
 
 
 
 
-// export class Success extends Component {
-//     continue = e => {
-//         e.preventDefault();
-//         // PROCESS FORM //
-//         this.props.nextStep();
-//     };
+export class Success extends Component {
+    
 
-//     back = e => {
-//         e.preventDefault();
-//         this.props.prevStep();
-//     };
+ 
 
-//     render() {
-//         return (
-//             <MuiThemeProvider>
-//                 <>
-//                     <Dialog
-//                         open
-//                         fullWidth
-//                         maxWidth='sm'
+    render() {
+        return (
+                
+                    <Dialog
+                        open
+                        fullWidth
+                        maxWidth='sm'
 
-//                     >
-//                         <AppBar title="Success" />
-//                         <h1>Thank You For Your Submission</h1>
-//                         <p>You will get an email with further instructions.</p>
-//                             <Button onClick={()=> deleteDialog(Dialog)} >CLICK</Button>   
-//                     </Dialog>
-//                 </>
-//             </MuiThemeProvider>
-//         );
-//     }
-// }
+                    >
+                        <DialogTitle id="Success">Success</DialogTitle>
+                        
+                        <h1>Thank You For Your Submission</h1>
+                        <p>You will get an email with further instructions.</p>
+                        <DialogActions>
+                        <button onClick = "Open = (false)" >CLOSE</button> 
+                        </DialogActions>
+                             
+                    </Dialog>
+                
+        );
+    }
+}
 
-// export default Success;
+export default Success;
 
